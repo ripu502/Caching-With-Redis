@@ -1,0 +1,27 @@
+{
+  "name": "caching-with-redis",
+  "version": "1.0.0",
+  "description": "Hoping to implement a small Caching with Redis and NodeJs",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ripu502/Caching-With-Redis.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ripu502/Caching-With-Redis/issues"
+  },
+  "homepage": "https://github.com/ripu502/Caching-With-Redis#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.0",
+    "redis": "^2.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
